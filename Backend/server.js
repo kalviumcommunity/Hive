@@ -4,7 +4,7 @@ require('dotenv').config();
 const PORT = process.env.PORT
 
 app.get('/', (req,res) => {
-    res.send("Hive is Online")
+    res.send("Hive is Now Online")
 })
 
 app.listen(PORT, () => console.log(`Running on port ${PORT}`))
