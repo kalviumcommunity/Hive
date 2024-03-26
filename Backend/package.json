@@ -8,7 +8,9 @@
     "express": "^4.19.1"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "mongodb": "^6.5.0",
-    "mongoose": "^8.2.3"
+    "mongoose": "^8.2.3",
+    "validator": "^13.11.0"
   }
 }
